@@ -9,7 +9,6 @@ public class TestCase6 {
 
         WebElement sendButton = driver.findElement(By.xpath("//button[text()='Send']"));
 
-        sendButton.click();
         System.out.println(sendButton.isDisplayed() && sendButton.isEnabled() && sendButton.getText().equals("SEND") ?
                 "Send button validation PASSED" : "Send button valdiation FAILED!!!");
 
