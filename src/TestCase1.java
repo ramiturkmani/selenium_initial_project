@@ -7,7 +7,7 @@ public class TestCase1 {
     public static void main(String[] args) {
         WebDriver driver = Driver.getDriver();
 
-        WebElement logo = driver.findElement(By.xpath("//*[@id='n-48560']"));
+        WebElement logo = driver.findElement(By.id("n-48560"));
 
         System.out.println(logo.isDisplayed() ? "Logo validation PASSED" : "Logo validation FAILED!!!");
 
